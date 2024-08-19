@@ -1,0 +1,7 @@
+name: 'Radicati Resource Library'
+description: 'Sets up a basic resource library for the site. Meant to be installed on top of a working Radicati site.'
+type: 'Resoure Library'
+install:
+  - views
+  - views_ui
+  - search_api

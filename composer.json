@@ -1,0 +1,15 @@
+{
+  "name": "getrootid/radicati-recipe-resource-library",
+  "description": "Base Radicati site setup.",
+  "type": "drupal-recipe",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Jason Mickela"
+    }
+  ],
+  "require": {
+    "drupal/search_api": "*",
+    "drupal/twig_tweak": "*"
+  }
+}

@@ -1,0 +1,36 @@
+uuid: 63274a81-3638-4fbd-815c-7100ed364d47
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.resource_library
+    - field.field.block_content.resource_library.field_component_sub_title
+    - field.field.block_content.resource_library.field_component_title
+  module:
+    - manage_display
+_core:
+  default_config_hash: b4n6dc1zire7p2KkepLd3ihnv8aTke_saMk3UICpP7U
+id: block_content.resource_library.default
+targetEntityType: block_content
+bundle: resource_library
+mode: default
+content:
+  field_component_sub_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_component_title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: false
+      tag: h2
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

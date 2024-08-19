@@ -1,0 +1,40 @@
+uuid: 3f2ce3ca-c46e-4b18-8306-1243af2eb579
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.resource_library
+    - field.field.block_content.resource_library.field_component_sub_title
+    - field.field.block_content.resource_library.field_component_title
+_core:
+  default_config_hash: 981ZYVDQEBglQGKml52GUsynhrQVbulRELzLU00YoAw
+id: block_content.resource_library.default
+targetEntityType: block_content
+bundle: resource_library
+mode: default
+content:
+  field_component_sub_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_component_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }
