@@ -5,3 +5,5 @@ install:
   - views
   - views_ui
   - search_api
+  - file_delete
+  - file_replace

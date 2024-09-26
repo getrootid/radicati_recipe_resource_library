@@ -10,6 +10,8 @@
   ],
   "require": {
     "drupal/search_api": "*",
-    "drupal/twig_tweak": "*"
+    "drupal/twig_tweak": "*",
+    "drupal/file_replace": "*",
+    "drupal/file_delete": "*"
   }
 }
