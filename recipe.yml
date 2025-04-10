@@ -7,3 +7,8 @@ install:
   - search_api
   - file_delete
   - file_replace
+  - conditional_fields
+
+config:
+  import:
+    conditional_fields: "*"
