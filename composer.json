@@ -9,7 +9,6 @@
     }
   ],
   "require": {
-    "drupal/conditional_fields": "*",
     "drupal/search_api": "*",
     "drupal/twig_tweak": "*",
     "drupal/file_replace": "*",
